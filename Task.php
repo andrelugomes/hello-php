@@ -2,8 +2,8 @@
 
 class Task {
 
-	public $description;
-	public $completed = false;
+	var $description; //PHP4
+	public $completed = false; //new Way
 
 	public function __construct($description)
 	{

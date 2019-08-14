@@ -21,6 +21,25 @@ class Constants {
 	}
 }
 
+class MyClass
+{
+    // Declare a public constant
+    public const MY_PUBLIC = 'public';
+
+    // Declare a protected constant
+    protected const MY_PROTECTED = 'protected';
+
+    // Declare a private constant
+    private const MY_PRIVATE = 'private';
+
+    public function foo()
+    {
+        echo self::MY_PUBLIC;
+        echo self::MY_PROTECTED;
+        echo self::MY_PRIVATE;
+    }
+}
+
 
 $constant = new Constants();
 
