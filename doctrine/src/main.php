@@ -1,8 +1,7 @@
 <?php
+require __DIR__ .'/../vendor/autoload.php';
 
 use Collections\Collections;
-
-require __DIR__ .'/../vendor/autoload.php';
 
 $collections = new Collections();
 

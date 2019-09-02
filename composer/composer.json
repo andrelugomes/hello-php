@@ -1,0 +1,22 @@
+{
+    "name": "andregomes/composer",
+    "require": {
+        "doctrine/collections": "^1.6",
+        "monolog/monolog": "^1.24"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Service\\": "service/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "André Luis Gomes",
+            "email": "andrelugomes@gmail.com"
+        }
+    ]
+}
