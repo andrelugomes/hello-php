@@ -24,7 +24,7 @@ You can access your application via **`localhost`**, if you're running the conta
 
 Service|Address outside containers
 ------|---------|-----------
-Webserver|[localhost:8000](http://localhost:8000)
+Webserver|[localhost:8001](http://localhost:8001)
 
 ## Hosts within your environment ##
 
